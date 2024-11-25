@@ -1,11 +1,8 @@
-import BackgroundImage from "./BackgroundImage";
-
 const Header = () => {
   return (
-    <header>
-      <BackgroundImage />
-      <h1 className='title'>
-        Word<span className='first-heading--thin'>Counter</span>
+    <header className='py-12 text-center'>
+      <h1 className='text-5xl font-bold tracking-wide text-white md:text-6xl'>
+        Word<span className='font-light'>Counter</span>
       </h1>
     </header>
   );
