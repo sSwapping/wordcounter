@@ -41,7 +41,7 @@ const Textarea = ({ text, setText }) => {
         onChange={handleChange}
         placeholder='Enter your text here...'
         spellCheck='false'
-        className='w-full h-64 p-4 text-lg resize-none focus:outline-none'
+        className='w-full h-64 p-4 text-lg resize-none focus:outline-none bg-neutral-100'
       />
       {warningText && <Warning warning={warningText} />}
     </div>
